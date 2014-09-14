@@ -357,10 +357,10 @@ class Main
     @$arrowWrap
       .velocity({ translateX: -270 },{ delay: delay*@s })
 
-    @$robust.velocity marginLeft: -20, { delay: delay, complete:=>
+    @$robust.velocity marginLeft: -20,  { delay: delay, complete:=>
       @$robust.css {
         marginLeft: -231
-        transform: 'translateX(0)'
+        transform: 'translateX(0) skewX(-20deg)'
       }
       @$fast.hide()
     }

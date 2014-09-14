@@ -436,7 +436,7 @@
           return function() {
             _this.$robust.css({
               marginLeft: -231,
-              transform: 'translateX(0)'
+              transform: 'translateX(0) skewX(-20deg)'
             });
             return _this.$fast.hide();
           };
